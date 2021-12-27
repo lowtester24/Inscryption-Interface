@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styling.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+        </style>
+    <title>Inscryption Interface</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class='header'> Inscryption</h1>
+        <h3> Always draw a card at the end of every play! </h3>
+
+        <div class="selector-amount">
+            <h2> Quantity of adversary cards: </h2>
+            <p id="card-amount"> The adversary has 5-10 cards</p>
+        </div>
+
+     <!--=================================================-->
+
+        <div class="selector-placement">
+            <h2> The next adversary card should be positioned at: </h2>
+            <p id="card-placement"> Row 1 </p>
+        </div>
+
+        <div class="button-parent">
+            <button id="btn">
+                <audio id="myAudio" src="/img/click_sound.mp3"></audio>
+                <img id="bell-icon" src="/img/bell-icons.png" alt="Bell Icon">
+            </button>
+        </div>
+
+    </div>
+
+    <script src="/scripting.js"></script>
+</body>
+</html>
